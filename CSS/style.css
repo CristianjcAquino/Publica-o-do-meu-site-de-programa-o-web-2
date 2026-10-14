@@ -188,8 +188,16 @@ html {
 }
 
 .timeline-img-box img {
-  width: 70px;
-  height: 70px;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid #38bdf8;
+}
+
+.timeline-img-box-vin img {
+  width: 260px;
+  height: 110px;
   object-fit: cover;
   border-radius: 6px;
   border: 2px solid #38bdf8;
